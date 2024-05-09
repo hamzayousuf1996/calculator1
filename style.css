@@ -1,0 +1,71 @@
+body{ background-color: aqua;
+min-height: 100vh;
+justify-content: center;
+display: flex;
+align-items: center;
+}
+
+.container{
+    background-color: black;
+width: 23rem;
+height: 35rem;
+border-radius: 3rem;
+padding: 1rem;
+color: white;
+}
+
+.container input{ 
+
+    width: 96%;
+    height: 12rem;
+    border: none;
+text-align: right;
+padding: .5rem;
+font-size: 5rem;
+background-color: rgb(71, 57, 57);
+border-radius: 3rem 3rem 0 0;
+pointer-events: none;
+color: white;
+}
+.container input:focus{
+outline: none;
+}
+
+.btn_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 1rem 0;
+    ;
+}
+.btn_container button{
+width: 6rem;
+height: 3rem;
+font: 1.2rem;
+border-radius: 1rem;
+ border: none;
+box-shadow: -5px -5px 5px  rgb(0, 0, 0, 527 ) inset;
+}
+
+.btn_container .green{ color: blue;
+    background-color: rgb(11, 50, 95);
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
